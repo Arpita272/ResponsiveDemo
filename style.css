@@ -1,5 +1,5 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Optima, sans-serif;
     margin:0;
     padding:0;
 }
@@ -31,20 +31,40 @@ body{
     margin-top: 25px;
     margin-right: 10px;
 }
+.body1{
+    width:100%;
+    display: flex;
+    height: 900px;
+}
 .text{
     background-color: #f2f2f2;
-    height: 800px;
     width:50%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 .title{
     font-size: 80px;
     margin-top: 0;
     padding-top: 350px;
+    margin-bottom: 20px;
+    font-weight: 300;
 }
 .des{
-    margin-top: -50px;
     font-weight: lighter;
+    margin-bottom: 70px;
+    font-size:20px;
 }
-
+.text button{
+    background-color: black;
+    color:white;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    font-size:20px;
+}
+.mainimage{
+    width:50%;
+}
+.mainimage img{
+    height:900px;
+    width:100%;
+}
