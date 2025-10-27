@@ -103,3 +103,26 @@ body{
 .viewmore:hover {
     text-decoration: underline;
 }
+
+.catalogue{
+    display: flex;
+}
+
+.catalogueimages{
+    padding:0;
+    margin:0;
+    gap:0;
+    display: flex;
+}
+
+.imgbox{
+    position:relative;
+    display:inline-block;
+}
+
+.label{
+    position:absolute;
+    top: 8px;
+    left:8px;
+}
+
