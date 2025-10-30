@@ -15,30 +15,32 @@ body {
 
 .tabs {
   background-color: #d6ccc2;
-  height: 50px;
-  padding: 0;
+  overflow: hidden;
 }
 
 .tabs a {
-  display: inline-block;
-  position: relative;
-  line-height: 20px;
-  font-size: 16px;
-  border-right: 1px solid;
-  margin-top:15px;
-  padding: 0 20px;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
   text-decoration: none;
-  color:black;
+  font-size: 16px;
+  border-right: 1px solid black;
 }
 
 .subtab {
   font-weight: bold;
 }
 
-.tabs i {
+.tabs i.fa-cart-shopping,
+.tabs i.fa-circle-user {
   float: right;
-  margin-top: 25px;
-  margin-right: 10px;
+  padding: 14px 10px;
+  margin-top: 5px;
+}
+
+.tabs a.icon {
+  display: none;
 }
 
 .body1 {
