@@ -222,6 +222,9 @@ body {
     display: block;
     text-align: left;
   }
+  .tabs a {
+    border-right: none;  
+  }
   .catalogueimages {
     flex-wrap: wrap;
   }
