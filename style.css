@@ -156,6 +156,17 @@ body {
   .imgbox {
     width: 50%;
   }
+  .title {
+    font-size: 60px;
+    padding-top: 150px;
+    font-weight: 200;
+  }
+  .body1 {
+    height: 600px;
+  }
+  .mainimage img {
+    height: 600px;
+  }
 }
 
 @media (max-width: 425px) {
