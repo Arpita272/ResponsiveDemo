@@ -9,7 +9,7 @@
     <div class="shippingtext">
         <p>FREE SHIPPING OVER £50 WORLDWIDE</p>
     </div>
-    <div class="tabs">
+    <div class="tabs" id="myTabs">
         <a href="#maintab" class="maintab">NOUS DEUX FRAGRANCES</a>
         <a href="#subtab" class="subtab">SHOP ALL</a>
         <a href="#subtab" class="subtab">BODY</a>
@@ -65,5 +65,15 @@
            </div>
         </div>
     </div>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myTabs");
+  if (x.className === "tabs") {
+    x.className += " responsive";
+  } else {
+    x.className = "tabs";
+  }
+}
+</script>
 </body>
 </html>

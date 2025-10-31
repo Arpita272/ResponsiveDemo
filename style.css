@@ -138,6 +138,12 @@ body {
   font-weight: 600;
 }
 
+@media (max-width:1440px){
+  .imgbox img{
+    width:100%;
+  }
+}
+
 @media (max-width: 1024px) {
   .imgbox img {
     width: 100%;
@@ -199,6 +205,22 @@ body {
     font-size: 16px;
     cursor: pointer;
     padding-right: 0;
+  }
+  .tabs a:not(:first-child) {display: none;}
+  .tabs a.icon {
+    float: right;
+    display: block;
+  }
+  .tabs.responsive {position: relative;}
+  .tabs.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .tabs.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
   .catalogueimages {
     flex-wrap: wrap;
